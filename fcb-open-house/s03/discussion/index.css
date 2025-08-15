@@ -1,0 +1,108 @@
+/*	
+
+
+css rules 
+
+syntax:
+
+selector{
+	property:value;
+}
+
+
+/* universal selector */
+
+* {
+	font-family: "Courier New", monospace;
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    
+}
+
+/*  Tag / Type Selector */
+
+h1{
+	font-family: "Tahoma", sans-serif;
+}
+
+body{
+	background-color: skyblue;
+}
+
+section {
+	text-align: center;
+}
+
+
+/* class selector */
+
+.nav-link{
+	font-size: 18px;
+
+}
+
+nav {
+	background-color: white;
+	text-align: center;
+	/*  padding is a property that allows us to add a space  */
+	padding: 15px;
+
+}
+
+/* demo of rule  */
+
+.title {
+	/*   color: green;  */
+
+	margin-top: 15px;
+	margin-bottom: 15px;
+} 
+
+#hello {
+	color: red;
+	font-size: 2rem;
+}
+
+#logo {
+	height: 300px;
+	width:  300px;
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.module-card{
+	height: 350px;
+	width: 800px;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: white;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	margin-left:auto;
+	margin-right: auto;
+
+}
+
+#modules{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#moduleHeader {
+	margin-top: 30px;
+}
+
+.module-image{
+	height: 200px;
+	width: 200px;
+}
